@@ -1,5 +1,9 @@
+package GitKadai0618_1;
+
 import java.io.FileReader;
 import java.io.IOException;
+
+
 
 public class sample {
 
@@ -17,6 +21,8 @@ public class sample {
 				System.out.print(c);
 				i = fr.read();
 			}
+		}catch(IOException e) {
+			System.out.print(false);
 		}
 	}
 
